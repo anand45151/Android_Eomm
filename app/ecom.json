@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "994867775892",
+    "project_id": "e-com-4ec41",
+    "storage_bucket": "e-com-4ec41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994867775892:android:f97a926e7775c67f106781",
+        "android_client_info": {
+          "package_name": "com.weare.plantree"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLBM1klN8KsFSTrqVCUpAvuKQoLcb-BWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
