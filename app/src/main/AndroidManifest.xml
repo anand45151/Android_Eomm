@@ -15,8 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
+        <activity
+            android:name=".Buyers.OnBording_Activity"
+            android:exported="false" />
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -24,18 +25,14 @@
             android:theme="@style/Status2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity
             android:name=".AboutActivity"
-            android:exported="false"/>
-
-        <activity
-            android:name=".Buyers.PaymentActivity"
-             />
+            android:exported="false" />
+        <activity android:name=".Buyers.PaymentActivity" />
         <activity
             android:name=".TermsActivity"
             android:exported="false"
@@ -56,9 +53,9 @@
             android:name=".Buyers.PlantsActivity"
             android:exported="false"
             android:theme="@style/Status1" />
-
-        <activity android:name=".Buyers.ResetPasswordActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".Buyers.ResetPasswordActivity"
+            android:exported="false" />
         <activity
             android:name=".Admin.AdminMaintainProductsActivity"
             android:exported="false"
@@ -93,8 +90,8 @@
             android:theme="@style/Status1" />
         <activity
             android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
             android:exported="false"
+            android:label="@string/title_activity_home"
             android:theme="@style/Status1" />
         <activity
             android:name=".Admin.AdminCategoryActivity"
